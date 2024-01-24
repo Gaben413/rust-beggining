@@ -1,3 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    let cond = 2 as f32 <= 2.2;
+
+    println!("{}", cond);
 }
